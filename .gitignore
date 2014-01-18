@@ -1,0 +1,28 @@
+.idea/
+.composer_installed
+.ssh/
+fcgi-bin/
+log/
+/Build/
+/Data/
+/Packages/
+/Web/
+/bin/
+/Readme.txt
+/Upgrading.txt
+/flow
+/flow.bat
+Tests/
+build.xml
+Configuration/Development/Settings.yaml.example
+Configuration/Production/
+Configuration/README
+Configuration/Settings.yaml.example
+Configuration/Testing/
+Configuration/PackageStates.php
+
+# ignore the downloaded selenium server, config and the selenium
+# temporary directory (which starts with a quote, do not ask why...)
+/Tests/Selenium/settings.xml
+Build/Resources/Java/selenium-server-standalone*
+/"
